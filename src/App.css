@@ -1,0 +1,89 @@
+.App {
+  padding: 20px;
+}
+
+.create {
+  /* background-color: indianred; */
+  background-color: #f2aa4cff;
+  /* background-color: #101820ff; */
+  /* color: #f2aa4cff; */
+}
+
+.query {
+  background-color: grey;
+  /* background-color: darkolivegreen; */
+  /* background-color: cornflowerblue; */
+  /* background-color: #f2aa4cff; */
+  /* color: #101820ff; */
+
+  /* background-color: ; */
+}
+
+.queryObj {
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+.query_value {
+  font-weight: bold;
+}
+
+.delete {
+  /* text-align: right; */
+  /* margin-left: auto; */
+  /* position: absolute; */
+  /* margin-bottom: 20px; */
+  /* padding: 10px; */
+  margin-top: 7px;
+  margin-right: 10px;
+  margin-bottom: -5px;
+}
+.label {
+  display: block;
+  /* border: 0.1rem solid; */
+  /* padding: 10px; */
+}
+
+.label:not(:first-of-type)
+{
+  /* display: none */
+  margin-top: 10px;
+}
+
+input {
+  /* display: block; */
+  width: 99%;
+  /* margin-right: -33px; */
+  /* margin-bottom: 15px; */
+  border-radius: 3px;
+  border: 0.04rem solid;
+  /* border: none; */
+  height: 26px;
+  min-height: 26px;
+}
+
+.float-container {
+  /* border: 3px solid #fff; */
+  padding: 20px;
+  display: flex;
+}
+
+.float-child {
+  flex: 1;
+  /* border: 2px solid yellow; */
+  /* width: 100%; */
+  /* float: left; */
+  /* padding: 20px; */
+  /* border: 2px solid red; */
+  /* display: "inline"; */
+}
+
+@media screen and (max-width: 786px) {
+  .float-container {
+    /* border: 3px solid #fff; */
+    /* padding: 20px; */
+    display: inline;
+  }
+  .query.finca {
+    height: 300px;
+  }
+}
